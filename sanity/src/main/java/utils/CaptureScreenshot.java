@@ -41,7 +41,7 @@ public class CaptureScreenshot {
     
   //Copy the file to a location and use try catch block to handle exception
     try {
-    	FileUtils.copyFile(TakesScreenshot, new File(".\\screenshot\\amazon.png"));
+    	FileUtils.copyFile(TakesScreenshot, new File("D:\\User\\git\\repository\\sanity\\src\\main\\java\\screenshot"));
     } catch (IOException e) {
         System.out.println(e.getMessage());
     }
