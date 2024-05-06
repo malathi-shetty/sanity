@@ -15,6 +15,8 @@ public class LoginPageObject {
 	private static By btn_signIn_Submit = By.xpath("//div//input[@id='signInSubmit']");
 	private static By btn_Keep_me_signed_in = By.xpath("//div//input[@type='checkbox']");
 	private static By error_message = By.xpath("//div[@class='a-alert-content']");
+	public static By searchBox;
+	public static By txtbox_password;
 	
 	//getters
 	// public method any one can access this
