@@ -7,10 +7,15 @@ public class RightAngledTriangle {
 	// Function to check if the given sides can form a right-angled triangle
 	
 	public static void main(String[] args) {
-	int side1 = 3; // Example value of side1
+	/*int side1 = 3; // Example value of side1
 	int side2 = 4; // Example value of side2
 	int side3 = 5; // Example value of side3
-	
+*/
+	int side1=5;
+	int side2=2;
+	int side3=1;
+		
+		
 	 // Print the values of the sides
     System.out.println("Given sides: " + side1 + ", " + side2 + ", " + side3);
     // Print the individual calculations
@@ -41,9 +46,6 @@ public class RightAngledTriangle {
 		return (sides[0] * sides[0] + sides[1] * sides[1] == sides[2] * sides[2] );
 	}
 
-	private static void result1(String string) {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }
