@@ -1,6 +1,7 @@
 package multioperator_functions;
 
 import java.util.Scanner;
+
 //- This line imports the Scanner class from the java.util package. This class is used to obtain input from the user through the console.
 
 public class ScannerDemo {

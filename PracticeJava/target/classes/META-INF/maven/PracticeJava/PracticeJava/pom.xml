@@ -3,4 +3,11 @@
   <groupId>PracticeJava</groupId>
   <artifactId>PracticeJava</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>automation</groupId>
+  		<artifactId>automation</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
