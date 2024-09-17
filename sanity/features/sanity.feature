@@ -15,7 +15,7 @@ Feature: Amazon Smoke Test - Login Page - valid case
 
     Examples: 
       | username       | password |
-      |8095645      |8095645|
+      |80956451      |8095645|
       #| john@ymail.com |   123456 |
       #| jane@gmail.com | pass@122 |
       #|     9876543210 | abcdef   |
