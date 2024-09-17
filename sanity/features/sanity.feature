@@ -15,7 +15,7 @@ Feature: Amazon Smoke Test - Login Page - valid case
 
     Examples: 
       | username       | password |
-      |8097231050      |8097231050|
+      |8095645      |8095645|
       #| john@ymail.com |   123456 |
       #| jane@gmail.com | pass@122 |
       #|     9876543210 | abcdef   |
@@ -31,9 +31,9 @@ Feature: Amazon Smoke Test - Login Page - valid case
     Examples: 
       | username       | password | error_message                                     |
       | john@gmail.com | wrong    | Your password is incorrect                        | #invalid password
-      |     8097231051 | abcde    | We cannot find an account with that mobile number | #invalid username - mobile
+      |     8095645 | abcde    | We cannot find an account with that mobile number | #invalid username - mobile
      # | wrong@gmail.com| wrong    | We cannot find an account with that email address | #invalid username - email
-     # |     8097231050 |          | Enter your password.                              | # blank password
+     # |     8095645 |          | Enter your password.                              | # blank password
     #  |                |   123456 | Enter your email or mobile phone number           | # blank username   
     #  |                |          | Username and password cannot be empty.            | # blank
     #  | john@gmail.com | wrong    | Incorrect username or password.                   | #invalid username & password
@@ -49,9 +49,9 @@ Feature: Amazon Smoke Test - Login Page - valid case
     Examples: 
       | username       |
     #  | user@gmail.com |
-      |     8097231050 |
+      |     8095645 |
     #  | test@yahoo.com |
-    #  |     9163726762 |
+    #  |     8095645 |
 
   Scenario Outline: User can select "Keep me signed in" checkbox # Keep me signed in checkbox
     When the User enters "<username>" and "<password>"
@@ -65,7 +65,7 @@ Feature: Amazon Smoke Test - Login Page - valid case
       | username       | password |
      # | john@ymail.com |   123456 |
      # | jane@gmail.com | pass@122 |
-      |     8097231050 | 8097231050   |
+      |     94545 | 94545   |
 
   Scenario Outline: User can select "Change" link on Password page # Change link
     When the User enters username and navigates to password page
@@ -77,7 +77,7 @@ Feature: Amazon Smoke Test - Login Page - valid case
     Examples: 
       | username       |
     #  | john@ymail.com |
-      |     8097231050 |
+      |     94545 |
      # | jane@gmail.com |
       
    Scenario Outline: User can select Get an OTP on your phone link on Password page # OTP
